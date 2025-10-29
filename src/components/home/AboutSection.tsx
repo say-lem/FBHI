@@ -35,7 +35,7 @@ export default function AboutSection() {
 
           <div className="mt-6">
             <Link href="/about" prefetch={false}>
-              <Button>Learn more</Button>
+              <Button>What We Do</Button>
             </Link>
           </div>
         </div>

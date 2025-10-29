@@ -6,13 +6,13 @@ export default function HeroSection() {
       <Hero
         title={
           <>
-            Foundation for Better,
+            Ensuring improved healthcare outcomes
             <br />
-            <span className="block">Health International</span>
+            <span className="block">for the disadvataged</span>
           </>
         }
         subtitle="Join us in creating lasting impact through collaboration, compassion, and action."
-        primaryCta={{ label: "What we do", href: "#" }}
+        primaryCta={{ label: "Who we are", href: "/about" }}
         // secondaryCta={{ label: "Play Video", href: "#" }}
       />
     </section>

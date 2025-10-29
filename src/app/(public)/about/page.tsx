@@ -15,7 +15,7 @@ export default function AboutPage() {
     <main className="bg-white">
       <HeroAbout />
       <MissionSection />
-      <ObjectivesSection />
+      {/* <ObjectivesSection /> */}
       <MembersSection />
       <Partners />
     </main>
