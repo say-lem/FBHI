@@ -4,7 +4,7 @@
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/src/components/ui/button";
 import axios from "axios";
 
 const donationSchema = z.object({
