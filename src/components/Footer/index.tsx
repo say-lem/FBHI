@@ -3,7 +3,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/src/components/ui/button";
 import { Facebook, Instagram, Twitter } from "lucide-react";
 import Image from "next/image";
 

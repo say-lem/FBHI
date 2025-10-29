@@ -23,12 +23,12 @@ export interface NavbarProps {
  */
 export default function Navbar({
   links = [
-    { label: "Home", href: "/" },
-    { label: "About us", href: "#" },
-    { label: "Donations", href: "#" },
-    { label: "Campaigns", href: "#" },
-    { label: "Blogs", href: "#" },
-  ],
+  { label: "Home", href: "/" },
+  { label: "About us", href: "/about" },
+  { label: "Donations", href: "/donate" },
+  { label: "Campaigns", href: "/campaigns" },
+  { label: "Blogs", href: "/blog" },
+],
   className,
   logoText = "FBHI",
 }: NavbarProps) {
@@ -72,7 +72,7 @@ export default function Navbar({
       )}
     >
       <nav
-        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
+        className="max-w-7xl container mx-auto px-4 sm:px-6 lg:px-8"
         role="navigation"
         aria-label="Primary Navigation"
       >
