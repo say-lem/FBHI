@@ -23,11 +23,11 @@ export interface NavbarProps {
  */
 export default function Navbar({
   links = [
-  { label: "Home", href: "/" },
+  // { label: "Home", href: "/" },
   { label: "About us", href: "/about" },
-  { label: "Donations", href: "/donate" },
+  { label: "What We Do", href: "/donate" },
   { label: "Campaigns", href: "/campaigns" },
-  { label: "Blogs", href: "/blog" },
+  { label: "News Letter", href: "/blog" },
 ],
   className,
   logoText = "FBHI",
@@ -113,11 +113,7 @@ export default function Navbar({
           {/* Right: CTA + mobile toggle */}
           <div className="flex items-center gap-3">
             <div className="hidden md:flex">
-              <Link href="/donate" prefetch={false}>
-                <Button aria-label="Donate now">
-                  {/* Button uses your shadcn button */}Donate Now <ArrowUpRight />
-                </Button>
-              </Link>
+              
             </div>
 
             {/* Mobile menu button */}
